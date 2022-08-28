@@ -427,6 +427,23 @@ img {
   padding: 50px 0 100px 0;
 }
 
+.error-bg {
+  display: block;
+  justify-content: center;
+}
+
+.ad-btn2 {
+  padding: 0 20px;
+  border-radius: 15px;
+  border-color: #f9f5f5;
+  font-style: none;
+  background-color: rgb(201, 97, 141);
+}
+.ad-btn2 a {
+  text-decoration: none;
+  color: #f9f5f5;
+}
+
 .footer-style {
   display: flex;
   flex-direction: column;
