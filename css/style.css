@@ -427,21 +427,21 @@ img {
   padding: 50px 0 100px 0;
 }
 
-.error-bg {
-  display: block;
-  justify-content: center;
+.error404 {
+  margin-top: 10%;
 }
 
 .ad-btn2 {
-  padding: 0 20px;
-  border-radius: 15px;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 360px;
   border-color: #f9f5f5;
-  font-style: none;
-  background-color: rgb(201, 97, 141);
+  background-color: rgb(102, 179, 221);
 }
 .ad-btn2 a {
   text-decoration: none;
-  color: #f9f5f5;
+  font-style: none;
+  color: #1B1B1B;
 }
 
 .footer-style {
