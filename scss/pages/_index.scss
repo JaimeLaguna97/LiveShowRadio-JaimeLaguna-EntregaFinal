@@ -64,7 +64,7 @@ color: $white;
     color: rgba($color: #6f7a8c, $alpha: 1);
 }
 .cta {
-    @extend .button;
+    @extend %button;
     font-size: $textSm;
     display: inline-block;
     overflow: hidden;
