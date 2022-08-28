@@ -79,13 +79,22 @@
     overflow: hidden;        
     position: relative;
     background-color: $fourthColor;
+    &hover {
+        background:$fourthColor;
+        border: 2px solid $thirdColor;
+        transition: all 0.3s ease;
+        box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+        }
 }
 
-.ad-btn:hover {
-    background-color:$thirdColor;
-    color:$black;
-    border: 2px solid $thirdColor;
-    background: $thirdColor;
-    transition: all 0.3s ease;
-    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+.btn-shop {
+    padding: 0 20px;
+    border-radius: 15px;
+    border-color: $white;
+    font-style: none;
+    background-color: $thirdColor;
+    a{
+        text-decoration: none;
+        color: $white;
+    }
 }
